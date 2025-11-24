@@ -2,17 +2,25 @@
   "name": "Xhovani Mali",
   "label": "Graduate Student at NYU Tandon | Software & Hardware Engineer",
   "image_path": "img/default-image.png",
+
   "contact": {
     "email": "xhovani03@live.com",
     "phone": "+1 (631)-992-0570",
     "location": "New York, United States"
   },
+
+  "email": "xhovani03@live.com",
+  "phone": "+1 (631)-992-0570",
+  "location": "New York, United States",
+
   "summary": "I’ve built a diverse engineering background by working across industries — from microcontrollers and FPGA design to aerospace, neuromorphic computing, and fintech. This breadth of experience reflects both curiosity and adaptability: I thrive at the intersection of software and hardware, where performance, reliability, and real-world impact meet.",
-  "base_url": "127.0.0.1:5500",
+
+  "base_url": "https://xhovanim8.github.io/portfolio",
+
   "social_links": [
     {
       "label": "Personal Website",
-      "url": "https://sample.com",
+      "url": "https://xhovanim8.github.io/portfolio",
       "svg_path": "img/globe.svg"
     },
     {
@@ -21,22 +29,66 @@
       "svg_path": "img/linkedin.svg"
     },
     {
-      "label": "Github",
+      "label": "GitHub",
       "url": "https://github.com/XhovaniM8",
       "svg_path": "img/github.svg"
     }
   ],
+
+  "skills": {
+    "languages": [
+      "C/C++",
+      "Python",
+      "Verilog",
+      "SystemVerilog",
+      "VHDL",
+      "Bash",
+      "JavaScript"
+    ],
+    "systems": [
+      "FPGA & RTL Design",
+      "Embedded Systems",
+      "RTOS",
+      "Digital Signal Processing (DSP)",
+      "Computer Architecture",
+      "Linux Systems Programming"
+    ],
+    "protocols": ["PCIe", "Ethernet", "AXI", "SPI", "I2C", "UART", "TCP/IP"],
+    "tools": [
+      "Vivado",
+      "Quartus",
+      "ModelSim",
+      "Synopsys VCS",
+      "Verilator",
+      "Docker",
+      "Git",
+      "Linux",
+      "Flask"
+    ],
+    "frameworks": [
+      "FINN",
+      "PyTorch",
+      "TensorFlow",
+      "Brevitas",
+      "ONNX",
+      "OpenAirInterface"
+    ]
+  },
+
   "work_experience": [
     {
-      "company": "Neucom AI",
-      "position": "Research Engineer",
+      "company": "Neucom ApS",
+      "position": "Digital Design Engineer (R&D)",
       "url": "https://neucom.ai/",
-      "start_date": "July 2025",
+      "start_date": "Aug 2025",
       "end_date": "Present",
-      "location": "Remote/Denmark",
-      "summary": "Researched neuromorphic computing and event-driven sensor optimization",
+      "location": "Remote (Denmark / US)",
+      "summary": "Designing and verifying digital pipelines for neuromorphic, event-based vision systems.",
       "highlights": [
-        "Optimized neuromorphic vision pipeline with JIT compilation, cutting noise by 74% and achieving 100× faster performance"
+        "Designed and verified SystemVerilog modules for event-based vision processing and real-time spatio-temporal filtering.",
+        "Built a Verilator-based simulation pipeline to replay sensor data, generate frame dumps, and visualize decoder output.",
+        "Diagnosed timing, coordinate-mapping, and data-format issues using structured testbenches and waveform analysis.",
+        "Collaborated with algorithm and software engineers to align RTL behavior with reference models and system requirements."
       ]
     },
     {
@@ -44,238 +96,158 @@
       "position": "Software Engineering Intern",
       "url": "https://www.ttm.com/en",
       "start_date": "May 2025",
-      "end_date": "August 2025",
+      "end_date": "Aug 2025",
       "location": "Farmingdale, NY",
-      "summary": "Developed software and automation for mission-critical audio systems",
+      "summary": "Developed software and automation for mission-critical audio and communications systems.",
       "highlights": [
-        "Improved intelligibility test runtime by 1.7× through optimized automation",
-        "Built Python/Flask GUI + CLI for dynamic audio routing and register control",
-        "Validated multi-stage audio chains with intelligibility benchmarking"
+        "Developed a Python-based test automation framework for speech intelligibility validation, reducing runtime by ~40%.",
+        "Built a Flask web application and CLI for real-time audio system control, monitoring, and register configuration.",
+        "Integrated automated testing into embedded firmware simulation flows, significantly reducing manual validation time per cycle."
       ]
     },
     {
       "company": "Qynosys, Inc.",
-      "position": "Electrical Engineering II Intern",
+      "position": "Electrical Engineer II Intern",
       "url": "https://qynosys.com/",
-      "start_date": "February 2024",
-      "end_date": "September 2024",
+      "start_date": "Feb 2024",
+      "end_date": "Sep 2024",
       "location": "New York, NY",
-      "summary": "Contributed to R&D for high-performance electronic systems",
+      "summary": "Contributed to R&D for high-performance networking and electronic systems.",
       "highlights": [
-        "Built 5G simulation environment with OpenAirInterface core components",
-        "Migrated high-speed Ethernet FPGA firmware to new platforms",
-        "Performed 10GbE throughput testing, documenting bottlenecks and optimizations"
+        "Deployed containerized 5G core network simulators using Docker and Linux to evaluate open-source platforms.",
+        "Ported network protocol bridge RTL across Xilinx FPGA architectures, resolving hardware compatibility and register mapping issues.",
+        "Characterized PCIe network interface performance with loopback testing and packet profiling to identify throughput bottlenecks."
       ]
     },
     {
-      "company": "Parallax AV Design, Inc.",
-      "position": "AV Solutions Engineer",
+      "company": "Parallax AV Design Inc.",
+      "position": "Audio-Visual Programming Engineer",
       "url": "https://www.parallaxav.com/",
-      "start_date": "August 2022",
-      "end_date": "December 2023",
-      "summary": "Specialized in AV system integration and enterprise solutions",
+      "start_date": "Aug 2022",
+      "end_date": "Oct 2023",
+      "location": "New York, NY",
+      "summary": "Specialized in AV system integration, embedded control, and enterprise deployments.",
       "highlights": [
-        "Delivered AV network integrations across 30+ enterprise offices",
-        "Created C# software to measure and optimize acoustic performance",
-        "Supported B2B growth with technical consulting and solution design"
+        "Commissioned 50+ enterprise audiovisual systems, developing embedded control logic and optimizing networked AV performance.",
+        "Integrated Crestron and Biamp DSP platforms across multi-room installations to deliver reliable AV-over-IP and automation.",
+        "Collaborated with project managers and clients to translate technical requirements into robust AV solutions."
       ]
     },
     {
       "company": "Microchip Technology Inc.",
-      "position": "Validation Engineering Intern",
+      "position": "FPGA Engineer Intern",
       "url": "https://www.microchip.com/",
-      "start_date": "February 2022",
-      "end_date": "August 2022",
-      "summary": "Worked on hardware validation and digital design solutions",
+      "start_date": "Feb 2022",
+      "end_date": "Aug 2022",
+      "location": "Hauppauge, NY",
+      "summary": "Worked on hardware validation, digital design, and FPGA-based communication interfaces.",
       "highlights": [
-        "Designed Verilog-based SPI module and testbench for validation",
-        "Performed FPGA testing to verify product functionality and performance",
-        "Enhanced SPI protocol reliability for better system integration"
+        "Designed and verified an SPI communication interface in Verilog RTL, including self-checking testbench infrastructure.",
+        "Performed FPGA-based hardware validation to confirm product functionality, timing behavior, and system integration.",
+        "Improved SPI robustness and reliability for better interoperability with embedded systems."
       ]
     },
     {
       "company": "Rio Tinto",
       "position": "Electrical Engineering Intern",
       "url": "https://www.riotinto.com/",
-      "start_date": "June 2021",
-      "end_date": "August 2021",
-      "summary": "Supported electrical engineering projects at a global mining corporation",
+      "start_date": "Jun 2021",
+      "end_date": "Aug 2021",
+      "location": "US",
+      "summary": "Supported electrical engineering projects at a large industrial site.",
       "highlights": [
-        "Updated MCC documentation and sensor configurations",
-        "Designed motor RTD instrumentation diagrams",
-        "Gained experience with AutoCAD and PLC programming"
+        "Updated MCC documentation and sensor configurations to reflect field conditions and design changes.",
+        "Created motor RTD instrumentation diagrams and wiring documentation for maintenance teams.",
+        "Gained hands-on exposure to industrial automation, PLCs, and plant safety practices."
       ]
     }
   ],
+
+  "research_experience": [
+    {
+      "organization": "NYU Processor Design Team – VIP Program",
+      "position": "Hardware Engineer",
+      "location": "Brooklyn, NY",
+      "start_date": "Sep 2024",
+      "end_date": "May 2025",
+      "summary": "Collaborated on modular RISC-V processor design, verification, and tooling as part of a vertically integrated project team.",
+      "highlights": [
+        "Helped design a 16-bit RISC-V CPU in SystemVerilog, including ALU, memory, and top-level integration.",
+        "Verified designs using Verilator and waveform analysis, adding testcases and automation scripts.",
+        "Worked with graduate and undergraduate teammates on pipelining, CI workflows, and documentation."
+      ]
+    }
+  ],
+
   "projects": [
     {
-      "title": "Real-Time Orderbook Analysis on FPGA",
-      "summary": "Capstone project implementing low-latency market pattern detection with FPGA-accelerated LSTMs",
+      "title": "FPGA-Accelerated Market Behavior Classifier",
+      "summary": "Financial engineering capstone implementing a quantized LSTM model for real-time limit order book analysis on FPGA hardware.",
       "url": "https://github.com/XhovaniM8/fpga-orderbook-analysis",
-      "duration": "January 2025 - Present",
+      "duration": "Jan 2025 – Present",
       "highlights": [
-        "Built quantized LSTM model on FPGA for orderbook prediction with F1 score of 0.41",
-        "Developed C++ orderbook simulator generating realistic trading behaviors"
-      ],
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=1",
-          "caption": "FPGA Orderbook Analysis Architecture"
-        }
+        "Designed a compact LSTM architecture for market microstructure classification using PyTorch and Brevitas.",
+        "Used FINN and QONNX to map the model to FPGA, with estimated latency in the low microsecond range and 1M+ inferences/sec. :contentReference[oaicite:0]{index=0}",
+        "Built a C++ limit order book simulator to generate labeled sequences that capture spoofing, liquidity sweeps, and momentum events. :contentReference[oaicite:1]{index=1}"
       ]
     },
     {
-      "title": "DVS Denoising Pipeline",
-      "summary": "Neuromorphic denoising system using Axon SDK and spiking neural networks",
-      "url": "https://github.com/XhovaniM8/dvs-denoising",
-      "duration": "July 2025",
-      "highlights": [
-        "Implemented 3-layer SNN processing 819K neurons in real-time",
-        "Achieved 92% noise reduction on sensor data",
-        "Demonstrated scalable event-based vision processing"
-      ],
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=2",
-          "caption": "DVS Denoising Neural Network Architecture"
-        }
-      ]
-    },
-    {
-      "title": "LPC-Based Stock Prediction Filter",
-      "summary": "Autoregressive market forecasting system using LPC filters",
+      "title": "Digital Signal Processing Filter for Time-Series Forecasting",
+      "summary": "Autoregressive forecasting system using Linear Predictive Coding (LPC) and Burg’s algorithm on financial data.",
       "url": "https://github.com/XhovaniM8/Real-Time-Stock-Prediction-Filter",
-      "duration": "September 2024 - December 2024",
+      "duration": "Sep 2024 – Dec 2024",
       "highlights": [
-        "Built forecasting system with LPC and Burg’s method, achieving 52.8% accuracy on large datasets"
-      ],
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=3",
-          "caption": "Stock Prediction Filter Results"
-        }
+        "Implemented LPC-based forecasting with Burg’s method to model short-term financial time series.",
+        "Evaluated prediction accuracy on historical datasets and tuned filter order for stability vs. responsiveness.",
+        "Packaged experiments into reproducible notebooks and scripts for further research."
       ]
     },
     {
-      "title": "Embedded Sentry",
-      "summary": "STM32-based gesture recognition system with secure access control",
+      "title": "Embedded Gesture Authentication System",
+      "summary": "Real-time gesture-based authentication on an ARM Cortex-M microcontroller.",
       "url": "https://github.com/XhovaniM8/EmbeddedSentry",
-      "duration": "September 2024 - December 2024",
+      "duration": "Sep 2024 – Dec 2024",
       "highlights": [
-        "Developed low-power STM32 firmware for gesture-based access control"
-      ],
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=4",
-          "caption": "Embedded Sentry Hardware Setup"
-        }
+        "Implemented interrupt-driven IMU data acquisition and feature extraction on a low-power microcontroller.",
+        "Developed gesture classification logic for secure, contactless user authentication.",
+        "Optimized firmware for latency and power usage under embedded constraints."
       ]
     },
     {
       "title": "Enclosed Hydroponic Control System",
-      "summary": "Automated irrigation system addressing environmental challenges",
+      "summary": "Closed-loop hydroponic system with sensor feedback and automated irrigation control.",
       "url": "",
-      "duration": "October 2021 - May 2022",
+      "duration": "Oct 2021 – May 2022",
       "highlights": [
-        "Integrated sensors for pH, TDS, temperature, and moisture into feedback loop",
-        "Controlled irrigation in real-time with Arduino-based system"
-      ],
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=5",
-          "caption": "Hydroponic Control System Setup"
-        }
+        "Integrated pH, TDS, temperature, and moisture sensors into a microcontroller-based control loop.",
+        "Developed firmware to drive pumps and valves based on configurable thresholds and schedules.",
+        "Improved system stability by filtering sensor noise and adding fault-detection logic."
       ]
     },
     {
       "title": "Vending Machine Controller (VHDL)",
-      "summary": "FSM-based vending machine controller implemented on FPGA",
+      "summary": "FSM-based vending machine controller implemented on FPGA.",
       "url": "",
-      "duration": "November 2020 - December 2020",
+      "duration": "Nov 2020 – Dec 2020",
       "highlights": [
-        "Designed FSM controller in VHDL and simulated in Xilinx ISE",
-        "Implemented onto FPGA board with 1 Hz clock operation"
-      ],
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=6",
-          "caption": "VHDL Vending Machine FSM Diagram"
-        }
+        "Designed a finite state machine controller in VHDL for coin handling, product selection, and change return.",
+        "Simulated behavior in Xilinx tooling and deployed to an FPGA development board.",
+        "Verified correctness with test scenarios covering edge cases and invalid inputs."
       ]
     },
     {
-      "title": "X-Ray Fluorescence Analysis Software",
-      "summary": "Collaborative open-source project for XRF spectral analysis",
+      "title": "X-Ray Fluorescence Analysis Utilities",
+      "summary": "Utilities for processing and formatting XRF spectral data for analysis.",
       "url": "",
-      "duration": "May 2020 - August 2020",
+      "duration": "May 2020 – Aug 2020",
       "highlights": [
-        "Built data extraction and formatting utilities for Excel integration",
-        "Coordinated team contributions using UML diagrams and GitHub"
-      ],
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=7",
-          "caption": "X-Ray Fluorescence Analysis Interface"
-        }
+        "Built scripts to extract, clean, and structure XRF data for use in spreadsheets and exploratory analysis.",
+        "Collaborated with peers using GitHub and UML diagrams to plan features and track changes.",
+        "Improved repeatability of analysis workflows by standardizing data formats."
       ]
     }
   ],
-  "research_experience": [
-    {
-      "organization": "NYU Processor Design Team - VIP Program",
-      "position": "Hardware Engineer",
-      "location": "Brooklyn, NY",
-      "start_date": "September 2024",
-      "end_date": "May 2025",
-      "summary": "Collaborated on modular RISC-V processor design and verification",
-      "highlights": [
-        "Designed a 16-bit RISC-V CPU in SystemVerilog with ALU, memory, and top-level modules",
-        "Verified designs using Verilator and GTKWave",
-        "Worked on pipelining, automation, and CI workflows"
-      ]
-    }
-  ],
-  "volunteer_experience": [
-    {
-      "organization": "Albanian Institute New York",
-      "position": "Liaison",
-      "url": "https://albanianinstitute.org",
-      "start_date": "November 2022",
-      "end_date": "Present",
-      "summary": "Supported cultural diplomacy and event programming",
-      "highlights": [
-        "Assisted in planning and executing cultural events",
-        "Represented the Institute at diplomatic and cultural gatherings",
-        "Contributed to fundraising strategies and outreach"
-      ]
-    },
-    {
-      "organization": "Research Aligned Mentorship Program",
-      "position": "Cohort 3 Alumni Representative",
-      "url": "https://www.farmingdale.edu",
-      "start_date": "January 2021",
-      "end_date": "May 2022",
-      "summary": "Acted as alumni liaison for mentorship program",
-      "highlights": [
-        "Maintained communication between program staff and scholars",
-        "Helped organize academic and social events",
-        "Facilitated networking and mentorship opportunities"
-      ]
-    },
-    {
-      "organization": "SUNY SAIL - Global Leader Experience",
-      "position": "Student Participant",
-      "url": "https://www.farmingdale.edu",
-      "start_date": "June 2019",
-      "end_date": "August 2019",
-      "summary": "Intensive leadership program with global civic focus",
-      "highlights": [
-        "Participated in civic-leadership curriculum and applied learning",
-        "Engaged with leaders across industries for professional growth",
-        "Developed skills in cross-cultural teamwork and leadership"
-      ]
-    }
-  ],
+
   "education": [
     {
       "institution": "New York University",
@@ -289,16 +261,11 @@
         "Machine Learning",
         "Digital Signal Processing"
       ],
-      "honors": [
-        "President's List (July 2021)",
-        "Irene Luetje Poetry Award (April 2021)",
-        "Dean's List (May 2020)"
-      ],
-      "start_date": "January 2024",
-      "graduation_date": "December 2025 (Expected)"
+      "start_date": "Jan 2024",
+      "graduation_date": "Dec 2025 (Expected)"
     },
     {
-      "institution": "SUNY Farmingdale",
+      "institution": "Farmingdale State College (SUNY)",
       "location": "Farmingdale, NY",
       "url": "https://www.farmingdale.edu/",
       "degrees": ["B.S. in Computer Engineering Technologies"],
@@ -307,8 +274,108 @@
         "Microprocessor Interfacing & Control",
         "Data Communications & Networking"
       ],
-      "start_date": "August 2018",
+      "start_date": "Aug 2018",
       "graduation_date": "May 2022"
+    }
+  ],
+
+  "volunteer_experience": [
+    {
+      "organization": "Albanian Institute New York",
+      "position": "Liaison",
+      "url": "https://albanianinstitute.org",
+      "start_date": "Nov 2022",
+      "end_date": "Present",
+      "summary": "Support cultural programming and community-facing initiatives.",
+      "highlights": [
+        "Assist with planning and execution of cultural and diplomatic events.",
+        "Represent the Institute at public programs and community gatherings.",
+        "Contribute to outreach and fundraising efforts for cultural initiatives."
+      ]
+    },
+    {
+      "organization": "Research Aligned Mentorship Program",
+      "position": "Cohort 3 Alumni Representative",
+      "url": "https://www.farmingdale.edu",
+      "start_date": "Jan 2021",
+      "end_date": "May 2022",
+      "summary": "Acted as an alumni liaison supporting first-generation and research-oriented students.",
+      "highlights": [
+        "Maintained communication between program staff, scholars, and alumni.",
+        "Helped organize academic and social events to strengthen cohort connections.",
+        "Supported mentorship and networking opportunities for new participants."
+      ]
+    },
+    {
+      "organization": "SUNY SAIL – Global Leader Experience",
+      "position": "Student Participant",
+      "url": "https://www.farmingdale.edu",
+      "start_date": "Jun 2019",
+      "end_date": "Aug 2019",
+      "summary": "Participated in a civic-focused leadership program with cross-cultural collaboration.",
+      "highlights": [
+        "Completed an intensive leadership curriculum centered on global civic issues.",
+        "Collaborated with students from diverse backgrounds on applied projects.",
+        "Developed communication and teamwork skills in multidisciplinary settings."
+      ]
+    }
+  ],
+
+  "certifications": [
+    {
+      "name": "AVIXA AV Technologist",
+      "issuer": "AVIXA",
+      "year": 2022
+    },
+    {
+      "name": "Biamp Tesira 101 – Core Concepts",
+      "issuer": "Biamp",
+      "year": 2022
+    },
+    {
+      "name": "TesiraFORTÉ Certification Training",
+      "issuer": "Biamp",
+      "year": 2022
+    },
+    {
+      "name": "Biamp AV Networking",
+      "issuer": "Biamp",
+      "year": 2022
+    },
+    {
+      "name": "Foundations of User Experience (UX) Design",
+      "issuer": "Google",
+      "year": 2023
+    },
+    {
+      "name": "TIPS New York ATAP Alcohol Server Training",
+      "issuer": "TIPS / New York ATAP",
+      "year": 2019
+    },
+    {
+      "name": "Crestron Training (CCT-000-230118-20174)",
+      "issuer": "Crestron",
+      "year": 2023
+    },
+    {
+      "name": "Crestron Training (E-4K-000-230626-08953)",
+      "issuer": "Crestron",
+      "year": 2023
+    }
+  ],
+
+  "awards": [
+    {
+      "name": "Irene Luetje Poetry Award – \"Domino\"",
+      "issuer": "Farmingdale State College",
+      "year": 2021,
+      "summary": "Recognized for a poem exploring diversity and inclusion as part of a campus-wide writing competition."
+    },
+    {
+      "name": "Dean’s / President’s List (Multiple Terms)",
+      "issuer": "Farmingdale State College",
+      "year": 2020,
+      "summary": "Academic honors for sustained high performance during undergraduate studies."
     }
   ]
 }
