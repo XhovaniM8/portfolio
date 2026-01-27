@@ -1,13 +1,13 @@
 {
   "name": "Xhovani Mali",
-  "label": "Graduate Student at NYU Tandon | Software & Hardware Engineer",
+  "label": "Computer Engineer",
   "image_path": "img/default-image.png",
 
   "contact": {
     "location": "New York Metro Area"
   },
 
-  "summary": "I've built a diverse engineering background by working across industries — from microcontrollers and FPGA design to aerospace, neuromorphic computing, and fintech. This breadth of experience reflects both curiosity and adaptability: I thrive at the intersection of software and hardware, where performance, reliability, and real-world impact meet.",
+  "summary": "",
 
   "base_url": "https://xhovanim8.github.io/portfolio",
 
@@ -30,99 +30,76 @@
   ],
 
   "skills": {
-    "languages": [
-      "C/C++",
-      "Python",
-      "Verilog",
-      "SystemVerilog",
-      "VHDL",
-      "Bash",
-      "JavaScript"
-    ],
-    "systems": [
-      "FPGA & RTL Design",
+    "languages": ["C++", "Python", "SystemVerilog", "C", "Bash"],
+    "hardware": [
+      "FPGA Design & Verification",
+      "RTL Design",
       "Embedded Systems",
-      "RTOS",
-      "Digital Signal Processing",
-      "Computer Architecture",
-      "Linux Systems Programming"
+      "Digital Signal Processing"
     ],
-    "protocols": ["PCIe", "Ethernet", "AXI", "SPI", "I2C", "UART", "TCP/IP"],
-    "tools": [
-      "FPGA Development Tools",
-      "RTL Simulation",
-      "Docker",
-      "Git",
-      "Linux",
-      "Web Frameworks"
-    ],
-    "frameworks": [
-      "Neural Network Quantization",
-      "PyTorch",
-      "TensorFlow",
-      "Hardware Acceleration Frameworks"
-    ]
+    "tools": ["Vivado", "Verilator", "cocotb", "Git", "Docker", "Linux"],
+    "protocols": ["AXI", "SPI", "I2C", "UART", "Ethernet", "TCP/IP"]
   },
 
   "work_experience": [
     {
       "company": "Neucom ApS",
-      "position": "Digital Design Engineer (R&D)",
+      "position": "FPGA Design Engineer",
       "url": "https://neucom.ai/",
-      "start_date": "2024",
+      "start_date": "2025",
       "end_date": "Present",
-      "location": "Remote",
-      "summary": "Designing and verifying digital pipelines for neuromorphic, event-based vision systems.",
+      "location": "Copenhagen, Denmark",
+      "summary": "Designing and verifying digital processing pipelines for neuromorphic vision systems.",
       "highlights": [
-        "Developed SystemVerilog RTL modules for event-based vision processing using spatio-temporal filtering techniques",
-        "Created comprehensive simulation infrastructure using Verilator for hardware verification and visualization",
-        "Built testbenches for timing verification and functional validation of digital processing pipelines",
-        "Collaborated cross-functionally to ensure hardware-software co-design alignment"
+        "Developed SystemVerilog RTL modules for event-based vision processing with spatio-temporal filtering",
+        "Built comprehensive verification infrastructure using Verilator and cocotb for functional validation",
+        "Created automated test frameworks with file-driven inputs and cycle-accurate performance metrics",
+        "Implemented FPGA demo systems with UART streaming and Python-based visualization tools"
       ]
     },
     {
       "company": "TTM Technologies",
       "position": "Software Engineering Intern",
       "url": "https://www.ttm.com/en",
-      "start_date": "2024",
-      "end_date": "2024",
-      "location": "New York Metro Area",
-      "summary": "Developed software and automation for mission-critical audio and communications systems.",
+      "start_date": "2025",
+      "end_date": "2025",
+      "location": "Farmingdale, NY",
+      "summary": "Developed automated testing frameworks and web-based control systems.",
       "highlights": [
-        "Built Python test automation frameworks for audio system validation and performance testing",
-        "Developed web-based control interfaces using Flask for real-time system monitoring",
-        "Created command-line tools for hardware configuration and register-level control",
+        "Built Python-based automated testing framework for audio system validation",
+        "Optimized data processing pipelines achieving 3× reduction in test execution time",
+        "Developed Flask web application for real-time monitoring and hardware configuration",
         "Integrated automated testing into embedded firmware development workflows"
       ]
     },
     {
       "company": "Qynosys, Inc.",
-      "position": "Electrical Engineer II Intern",
+      "position": "Embedded Software Engineer Intern",
       "url": "https://qynosys.com/",
       "start_date": "2024",
       "end_date": "2024",
       "location": "New York, NY",
-      "summary": "Contributed to R&D for high-performance networking and electronic systems.",
+      "summary": "Worked on FPGA platform migration and high-speed networking systems.",
       "highlights": [
-        "Deployed containerized network simulators using Docker and Linux for platform evaluation",
-        "Ported RTL designs across multiple FPGA architectures focusing on hardware abstraction",
-        "Performed PCIe interface characterization through loopback testing and performance analysis",
-        "Worked with high-speed networking protocols and packet processing pipelines"
+        "Migrated RTL designs across FPGA platforms, resolving clock domain crossing and integration issues",
+        "Validated high-speed Ethernet data paths using Linux-based traffic generation and analysis tools",
+        "Deployed containerized network simulators for platform evaluation and research",
+        "Characterized system performance collecting throughput and latency metrics"
       ]
     },
     {
       "company": "Parallax AV Design Inc.",
-      "position": "Audio-Visual Programming Engineer",
+      "position": "AV Programming Engineer",
       "url": "https://www.parallaxav.com/",
       "start_date": "2022",
       "end_date": "2023",
       "location": "New York, NY",
-      "summary": "Specialized in AV system integration, embedded control, and enterprise deployments.",
+      "summary": "Programmed embedded control systems for enterprise audiovisual installations.",
       "highlights": [
-        "Programmed embedded control systems for enterprise audiovisual installations",
-        "Integrated DSP platforms for multi-room audio processing and distribution",
-        "Implemented networked AV-over-IP solutions for scalable system architectures",
-        "Developed automation logic for user interface and system control"
+        "Developed control logic and user interfaces for 30+ enterprise installations",
+        "Configured audio signal processing and networked audio distribution systems",
+        "Implemented networked system architectures with VLAN and device synchronization",
+        "Diagnosed and resolved interoperability issues across networked AV systems"
       ]
     },
     {
@@ -131,13 +108,13 @@
       "url": "https://www.microchip.com/",
       "start_date": "2022",
       "end_date": "2022",
-      "location": "New York Metro Area",
-      "summary": "Worked on hardware validation, digital design, and FPGA-based communication interfaces.",
+      "location": "Hauppauge, NY",
+      "summary": "Designed and verified digital communication interfaces on FPGA platforms.",
       "highlights": [
-        "Designed SPI communication interfaces in Verilog RTL with self-checking testbenches",
-        "Performed hardware validation on FPGA platforms for timing and functional verification",
-        "Developed verification infrastructure for serial communication protocol testing",
-        "Contributed to improving interface reliability for embedded system integration"
+        "Designed SPI communication interfaces in Verilog with simulation testbenches",
+        "Performed hardware validation for timing and functional verification",
+        "Developed verification infrastructure for serial protocol testing",
+        "Supported FPGA synthesis and timing closure for production IP"
       ]
     },
     {
@@ -147,7 +124,7 @@
       "start_date": "2021",
       "end_date": "2021",
       "location": "US",
-      "summary": "Supported electrical engineering projects at a large industrial site.",
+      "summary": "Supported electrical engineering projects at industrial site.",
       "highlights": [
         "Created technical documentation for motor control centers and instrumentation",
         "Developed wiring diagrams for RTD sensor installations and monitoring systems",
@@ -157,39 +134,68 @@
     }
   ],
 
-  "research_experience": [
-    {
-      "organization": "NYU Processor Design Team – VIP Program",
-      "position": "Hardware Engineer",
-      "location": "Brooklyn, NY",
-      "start_date": "2024",
-      "end_date": "2025",
-      "summary": "Collaborated on modular RISC-V processor design, verification, and tooling as part of a vertically integrated project team.",
-      "highlights": [
-        "Designed RISC-V CPU modules in SystemVerilog including ALU and memory subsystems",
-        "Performed RTL verification using Verilator and waveform analysis tools",
-        "Contributed to CI/CD pipeline development for automated testing",
-        "Collaborated on processor architecture documentation and design reviews"
-      ]
-    }
-  ],
-
   "projects": [
     {
-      "title": "FPGA-Accelerated Market Behavior Classifier",
-      "summary": "Financial engineering capstone implementing a quantized LSTM model for real-time limit order book analysis on FPGA hardware.",
+      "title": "FPGA-Accelerated Market Microstructure Classifier",
+      "summary": "Quantized LSTM model for real-time limit order book analysis deployed on FPGA hardware.",
       "url": "https://github.com/XhovaniM8/fpga-orderbook-analysis",
-      "duration": "2025 – Present",
+      "duration": "2025",
       "highlights": [
-        "Implemented quantized LSTM architecture using PyTorch and hardware-aware training techniques",
-        "Deployed neural network to FPGA achieving microsecond-level inference latency",
-        "Developed C++ market data simulator for generating training datasets",
+        "Implemented 8-bit quantized LSTM architecture achieving sub-3µs inference latency",
+        "Developed C++ market data simulator for generating labeled training datasets",
+        "Deployed neural network to FPGA using hardware compilation toolchain",
         "Created hardware acceleration pipeline for real-time financial data processing"
       ]
     },
     {
+      "title": "Hamster Time Tracker — macOS Port",
+      "summary": "Cross-platform port of GNOME time tracking application to macOS.",
+      "url": "https://github.com/XhovaniM8/hamster-time-tracker",
+      "duration": "2025 – Present",
+      "highlights": [
+        "Ported Linux application by removing platform-specific dependencies",
+        "Refactored backend components for cross-platform execution",
+        "Adapted build system and configuration workflows for macOS",
+        "Preserved existing data models and functionality across platforms"
+      ]
+    },
+    {
+      "title": "jrnl — Cross-Platform Journaling Application",
+      "summary": "Local-first desktop journaling application with modular C++ core and Qt-based UI.",
+      "url": "https://github.com/XhovaniM8/jrnl",
+      "duration": "2025 – Present",
+      "highlights": [
+        "Developing modular C++ core with SQLite-backed storage",
+        "Building Qt6-based user interface for cross-platform deployment",
+        "Prototyping Python-based analytics for text analysis and insights",
+        "Focusing on data integrity and responsive user experience"
+      ]
+    },
+    {
+      "title": "HPCC++ Congestion Control Parameter Tuning",
+      "summary": "Systematic evaluation of datacenter congestion control protocols for AI workloads.",
+      "duration": "2025",
+      "highlights": [
+        "Extended congestion control implementation to expose tunable parameters",
+        "Built Python experiment framework for systematic parameter evaluation",
+        "Analyzed flow completion time, retransmissions, and stability metrics",
+        "Evaluated protocols under datacenter-style congestion scenarios"
+      ]
+    },
+    {
+      "title": "DVS Event Camera Denoising Pipeline",
+      "summary": "Spatio-temporal denoising for event-based cameras using spiking neural networks.",
+      "duration": "2025",
+      "highlights": [
+        "Implemented SNN-based denoiser with 819K spiking neurons",
+        "Achieved 92% noise reduction on event streams",
+        "Optimized Python implementation achieving 100× speedup",
+        "Processed 1.8M+ event datasets in real-time"
+      ]
+    },
+    {
       "title": "Digital Signal Processing Filter for Time-Series Forecasting",
-      "summary": "Autoregressive forecasting system using Linear Predictive Coding (LPC) and Burg's algorithm on financial data.",
+      "summary": "Autoregressive forecasting system using Linear Predictive Coding on financial data.",
       "url": "https://github.com/XhovaniM8/Real-Time-Stock-Prediction-Filter",
       "duration": "2024",
       "highlights": [
@@ -201,7 +207,7 @@
     },
     {
       "title": "Embedded Gesture Authentication System",
-      "summary": "Real-time gesture-based authentication on an ARM Cortex-M microcontroller.",
+      "summary": "Real-time gesture-based authentication on ARM Cortex-M microcontroller.",
       "url": "https://github.com/XhovaniM8/EmbeddedSentry",
       "duration": "2024",
       "highlights": [
@@ -256,14 +262,15 @@
         "Real-Time Embedded Systems",
         "VLSI System Design",
         "Design & Analysis of Algorithms",
+        "High-Speed Networks",
         "Machine Learning",
         "Digital Signal Processing"
       ],
-      "graduation_date": "2025 (Expected)"
+      "graduation_date": "December 2025"
     },
     {
       "institution": "Farmingdale State College (SUNY)",
-      "location": "New York",
+      "location": "Farmingdale, NY",
       "url": "https://www.farmingdale.edu/",
       "degrees": ["B.S. in Computer Engineering Technologies"],
       "coursework": [
@@ -271,7 +278,7 @@
         "Microprocessor Interfacing & Control",
         "Data Communications & Networking"
       ],
-      "graduation_date": "2022"
+      "graduation_date": "May 2022"
     }
   ],
 
@@ -314,49 +321,6 @@
         "Collaborated with diverse student teams on applied projects",
         "Developed cross-cultural communication and teamwork skills"
       ]
-    }
-  ],
-
-  "certifications": [
-    {
-      "name": "AVIXA AV Technologist",
-      "issuer": "AVIXA",
-      "year": 2022
-    },
-    {
-      "name": "Tesira Core Concepts",
-      "issuer": "Biamp",
-      "year": 2022
-    },
-    {
-      "name": "AV Networking Certification",
-      "issuer": "Biamp",
-      "year": 2022
-    },
-    {
-      "name": "Foundations of User Experience (UX) Design",
-      "issuer": "Google",
-      "year": 2023
-    },
-    {
-      "name": "Control Systems Programming",
-      "issuer": "Crestron",
-      "year": 2023
-    }
-  ],
-
-  "awards": [
-    {
-      "name": "Poetry Award",
-      "issuer": "Farmingdale State College",
-      "year": 2021,
-      "summary": "Recognized for creative writing exploring diversity and inclusion themes"
-    },
-    {
-      "name": "Dean's / President's List",
-      "issuer": "Farmingdale State College",
-      "year": 2020,
-      "summary": "Academic honors for sustained high performance during undergraduate studies"
     }
   ]
 }

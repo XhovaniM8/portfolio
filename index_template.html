@@ -257,22 +257,22 @@
           {% if skills %}
             <section>
               <h2 class="section-heading">Skills</h2>
-              <ul class="unstyled-list">
-                {% for skill in skills %}
-                  <li>
-                    <h3>{{ skill.name }}</h3>
-                    <div class="skill-bar">
-                      <div class="skill-bar-fill w-{{ skill.proficiency }}"
-                           role="meter"
-                           aria-valuenow="{{ skill.proficiency }}"
-                           aria-valuemin="0"
-                           aria-valuemax="100">
-                        <span class="skill-bar-label">{{ skill.proficiency_label }}</span>
-                      </div>
-                    </div>
-                  </li>
-                {% endfor %}
-              </ul>
+              {% if skills.languages %}
+                <h3>Languages</h3>
+                <p>{{ skills.languages | join(', ') }}</p>
+              {% endif %}
+              {% if skills.hardware %}
+                <h3>Hardware</h3>
+                <p>{{ skills.hardware | join(', ') }}</p>
+              {% endif %}
+              {% if skills.tools %}
+                <h3>Tools</h3>
+                <p>{{ skills.tools | join(', ') }}</p>
+              {% endif %}
+              {% if skills.protocols %}
+                <h3>Protocols</h3>
+                <p>{{ skills.protocols | join(', ') }}</p>
+              {% endif %}
             </section>
           {% endif %}
 

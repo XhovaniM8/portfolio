@@ -139,6 +139,52 @@
 
         <!-- Sidebar Section -->
         <aside>
+          {% if education %}
+            <section>
+              <h2 class="section-heading">Education</h2>
+              {% for edu in education %}
+                <section>
+                  <h3>
+                    {% if edu.url %}
+                      <a href="{{ edu.url }}">{{ edu.institution }}</a>
+                    {% else %}
+                      {{ edu.institution }}
+                    {% endif %}
+                  </h3>
+                  {% if edu.location %}<p class="section-label">{{ edu.location }}</p>{% endif %}
+                  {% if edu.degrees %}
+                    <ul>
+                      {% for deg in edu.degrees %}<li>{{ deg }}</li>{% endfor %}
+                    </ul>
+                  {% endif %}
+                  {% if edu.graduation_date %}<p>Graduation: {{ edu.graduation_date }}</p>{% endif %}
+                </section>
+              {% endfor %}
+            </section>
+          {% endif %}
+
+          {% if skills %}
+            <section>
+              <h2 class="section-heading">Skills</h2>
+              {% if skills.languages %}
+                <h3>Languages</h3>
+                <p>{{ skills.languages | join(', ') }}</p>
+              {% endif %}
+              {% if skills.hardware %}
+                <h3>Hardware</h3>
+                <p>{{ skills.hardware | join(', ') }}</p>
+              {% endif %}
+              {% if skills.tools %}
+                <h3>Tools</h3>
+                <p>{{ skills.tools | join(', ') }}</p>
+              {% endif %}
+              {% if skills.protocols %}
+                <h3>Protocols</h3>
+                <p>{{ skills.protocols | join(', ') }}</p>
+              {% endif %}
+            </section>
+          {% endif %}
+
           {% if languages %}
             <section>
               <h2 class="section-heading">Languages</h2>
