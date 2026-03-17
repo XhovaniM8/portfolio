@@ -162,7 +162,7 @@
                     
                   </h3>
                   
-                    <p class="section-label">2025 - Present</p>
+                    <p class="section-label">2025 - 2026</p>
                   
                   <p>Designing and verifying digital processing pipelines for neuromorphic vision systems.</p>
                   
@@ -175,7 +175,7 @@
                 <section>
                   <h3>
                     
-                      Software Engineering Intern at <a href="https://www.ttm.com/en">TTM Technologies</a>
+                      Systems Engineering Intern at <a href="https://www.ttm.com/en">TTM Technologies</a>
                     
                   </h3>
                   
@@ -192,7 +192,7 @@
                 <section>
                   <h3>
                     
-                      Embedded Software Engineer Intern at <a href="https://qynosys.com/">Qynosys, Inc.</a>
+                      Electrical Engineer II Intern at <a href="https://qynosys.com/">Qynosys, Inc.</a>
                     
                   </h3>
                   
@@ -209,7 +209,7 @@
                 <section>
                   <h3>
                     
-                      AV Programming Engineer at <a href="https://www.parallaxav.com/">Parallax AV Design Inc.</a>
+                      Commissioning Engineer at <a href="https://www.parallaxav.com/">Parallax AV Design Inc.</a>
                     
                   </h3>
                   
@@ -226,7 +226,7 @@
                 <section>
                   <h3>
                     
-                      FPGA Engineer Intern at <a href="https://www.microchip.com/">Microchip Technology Inc.</a>
+                      Validation Engineering Intern at <a href="https://www.microchip.com/">Microchip Technology Inc.</a>
                     
                   </h3>
                   
@@ -267,6 +267,36 @@
                 <section>
                   <h3>
                     
+                      <a href="https://github.com/XhovaniM8/eXSimulator">eXSimulator: High-Performance Exchange Matching Engine</a>
+                    
+                  </h3>
+                  <p>C++20 limit order book matching engine benchmarked against live market data.</p>
+                  
+                    <ul>
+                      <li>Engineered a matching core processing 7.53M orders/sec on live Kraken BTC/USD market data; supports Limit, Market, IOC, FOK, and PostOnly order types with price-time priority</li><li>Diagnosed CPU bottleneck in cancel path via perf flame graph; replaced O(n) scan with unordered_map index for O(1) lookup and 33× throughput improvement</li><li>Built end-to-end market data pipeline: WebSocket recorder, binary feed parser, and C++ replayer validating engine against 15,542 live market events</li><li>Implemented lock-free SPSC ingestion queue with cache-line aligned Order structs eliminating false sharing; validated with Google Benchmark suite</li>
+                    </ul>
+                  
+                  
+                </section>
+              
+                <section>
+                  <h3>
+                    
+                      <a href="https://github.com/XhovaniM8/jasper-speaker">Jasper: Multi-Channel Audiophile Speaker System</a>
+                    
+                  </h3>
+                  <p>Embedded Linux audio pipeline and control stack running on Raspberry Pi 5.</p>
+                  
+                    <ul>
+                      <li>Designed a multi-stage audio processing pipeline integrating Squeezelite, ALSA loopback, and CamillaDSP; full signal path from Spotify/AirPlay ingestion through 8-channel DSP to TPA3255 amplifier output</li><li>Developed a containerized service stack (Docker, systemd) exposing DSP controls and device state via APIs; integrated with Home Assistant for voice-command automation and audio interruption handling</li>
+                    </ul>
+                  
+                  
+                </section>
+              
+                <section>
+                  <h3>
+                    
                       <a href="https://github.com/XhovaniM8/fpga-orderbook-analysis">FPGA-Accelerated Market Microstructure Classifier</a>
                     
                   </h3>
@@ -282,43 +312,13 @@
                 <section>
                   <h3>
                     
-                      <a href="https://github.com/XhovaniM8/hamster-time-tracker">Hamster Time Tracker — macOS Port</a>
-                    
-                  </h3>
-                  <p>Cross-platform port of GNOME time tracking application to macOS.</p>
-                  
-                    <ul>
-                      <li>Ported Linux application by removing platform-specific dependencies</li><li>Refactored backend components for cross-platform execution</li><li>Adapted build system and configuration workflows for macOS</li><li>Preserved existing data models and functionality across platforms</li>
-                    </ul>
-                  
-                  
-                </section>
-              
-                <section>
-                  <h3>
-                    
-                      <a href="https://github.com/XhovaniM8/jrnl">jrnl — Cross-Platform Journaling Application</a>
-                    
-                  </h3>
-                  <p>Local-first desktop journaling application with modular C++ core and Qt-based UI.</p>
-                  
-                    <ul>
-                      <li>Developing modular C++ core with SQLite-backed storage</li><li>Building Qt6-based user interface for cross-platform deployment</li><li>Prototyping Python-based analytics for text analysis and insights</li><li>Focusing on data integrity and responsive user experience</li>
-                    </ul>
-                  
-                  
-                </section>
-              
-                <section>
-                  <h3>
-                    
-                      HPCC++ Congestion Control Parameter Tuning
+                      <a href="https://github.com/XhovaniM8/hpcc-tuning">HPCC++ Congestion Control Parameter Tuning</a>
                     
                   </h3>
                   <p>Systematic evaluation of datacenter congestion control protocols for AI workloads.</p>
                   
                     <ul>
-                      <li>Extended congestion control implementation to expose tunable parameters</li><li>Built Python experiment framework for systematic parameter evaluation</li><li>Analyzed flow completion time, retransmissions, and stability metrics</li><li>Evaluated protocols under datacenter-style congestion scenarios</li>
+                      <li>Extended congestion control implementation to expose tunable parameters</li><li>Built Python experiment framework for systematic parameter evaluation</li><li>Analyzed flow completion time, retransmissions, and stability metrics for 100–800 Gbps links targeting AI datacenter fabric workloads</li>
                     </ul>
                   
                   
@@ -357,13 +357,43 @@
                 <section>
                   <h3>
                     
-                      <a href="https://github.com/XhovaniM8/EmbeddedSentry">Embedded Gesture Authentication System</a>
+                      <a href="https://github.com/XhovaniM8/stm32-gesture-key">STM32 Gesture Key: Gesture-Based Authentication System</a>
                     
                   </h3>
-                  <p>Real-time gesture-based authentication on ARM Cortex-M microcontroller.</p>
+                  <p>Real-time gesture-based authentication on STM32F429 using gyroscope motion sequences.</p>
                   
                     <ul>
-                      <li>Developed interrupt-driven firmware for IMU sensor data acquisition</li><li>Implemented real-time signal processing for gesture feature extraction</li><li>Created classification algorithms optimized for microcontroller constraints</li><li>Designed low-power firmware architecture for battery-operated deployment</li>
+                      <li>Developed interrupt-driven firmware for L3GD20 gyroscope data acquisition over SPI with 128-sample bias calibration</li><li>Implemented per-axis Pearson correlation matching with configurable threshold for gesture verification</li><li>Wrote custom drivers and integrated HAL for ILI9341 LCD and STMPE811 touchscreen peripherals</li><li>Built on Mbed OS targeting ARM Cortex-M4 at 180 MHz</li>
+                    </ul>
+                  
+                  
+                </section>
+              
+                <section>
+                  <h3>
+                    
+                      <a href="https://github.com/XhovaniM8/hamster-time-tracker">Hamster Time Tracker — macOS Port</a>
+                    
+                  </h3>
+                  <p>Cross-platform port of GNOME time tracking application to macOS.</p>
+                  
+                    <ul>
+                      <li>Ported Linux application by removing platform-specific dependencies</li><li>Refactored backend components for cross-platform execution</li><li>Adapted build system and configuration workflows for macOS</li><li>Preserved existing data models and functionality across platforms</li>
+                    </ul>
+                  
+                  
+                </section>
+              
+                <section>
+                  <h3>
+                    
+                      <a href="https://github.com/XhovaniM8/jrnl">jrnl — Cross-Platform Journaling Application</a>
+                    
+                  </h3>
+                  <p>Local-first desktop journaling application with modular C++ core and Qt-based UI.</p>
+                  
+                    <ul>
+                      <li>Developing modular C++ core with SQLite-backed storage</li><li>Building Qt6-based user interface for cross-platform deployment</li><li>Prototyping Python-based analytics for text analysis and insights</li><li>Focusing on data integrity and responsive user experience</li>
                     </ul>
                   
                   
@@ -502,7 +532,7 @@
                     <p>
                       
                       
-                      <span class="block">Graduation Date: December 2025</span>
+                      <span class="block">Graduation Date: January 2026</span>
                     </p>
                   
                 </section>
@@ -538,7 +568,7 @@
               <h2 class="section-heading">Skills</h2>
               
                 <h3>Languages</h3>
-                <p>C++, Python, SystemVerilog, C, Bash</p>
+                <p>C++, C, Python, SystemVerilog, Verilog, VHDL, Bash, Tcl</p>
               
               
                 <h3>Hardware</h3>
@@ -546,11 +576,11 @@
               
               
                 <h3>Tools</h3>
-                <p>Vivado, Verilator, cocotb, Git, Docker, Linux</p>
+                <p>Vivado, Verilator, cocotb, Git, CMake, Docker, Linux, gdb, perf, valgrind, Google Benchmark, Catch2, pytest</p>
               
               
                 <h3>Protocols</h3>
-                <p>AXI, SPI, I2C, UART, Ethernet, TCP/IP</p>
+                <p>AXI, SPI, I2C, UART, Ethernet, TCP/IP, Aurora, PCIe</p>
               
             </section>
           
