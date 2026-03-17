@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(ls:*)",
-      "Bash(source venv/bin/activate:*)",
-      "Bash(python generate_portfolio.py:*)"
-    ]
-  }
-}
