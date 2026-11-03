@@ -3,23 +3,23 @@
   "label": "Computer Engineer",
   "image_path": "img/default-image.png",
   "contact": {
-    "location": "New York Metro Area"
+    "location": "New York, NY, United States"
   },
   "summary": "",
   "base_url": "https://xhovanim8.github.io/portfolio",
   "social_links": [
     {
-      "label": "Personal Website",
-      "url": "https://xhovanim8.github.io/portfolio",
+      "label": "Blog",
+      "url": "https://xhovanim8.github.io/",
       "svg_path": "img/globe.svg"
     },
     {
-      "label": "LinkedIn",
+      "label": "Linkedin",
       "url": "https://www.linkedin.com/in/xhovanimali/",
       "svg_path": "img/linkedin.svg"
     },
     {
-      "label": "GitHub",
+      "label": "Github",
       "url": "https://github.com/XhovaniM8",
       "svg_path": "img/github.svg"
     }
@@ -29,9 +29,9 @@
       "C++",
       "C",
       "Python",
+      "Lua",
       "SystemVerilog",
       "Verilog",
-      "VHDL",
       "Bash",
       "Tcl"
     ],
@@ -56,21 +56,34 @@
       "Catch2",
       "pytest"
     ],
-    "protocols": [
+    "protocols and interfaces": [
       "AXI",
       "SPI",
       "I2C",
       "UART",
       "Ethernet",
-      "TCP/IP",
-      "Aurora",
-      "PCIe"
+      "TCP/IP"
     ]
   },
   "work_experience": [
     {
+      "company": "Jasper Tech",
+      "position": "Embedded Software Engineer",
+      "url": "https://jasper.tech/",
+      "start_date": "2026",
+      "end_date": "2026",
+      "location": "Remote, US",
+      "summary": "Designing and verifying Home Assistant and Music Assistant service pipeline on Raspberry-Pi",
+      "highlights": [
+        "Developed SystemVerilog RTL modules for event-based vision processing with spatio-temporal filtering",
+        "Built comprehensive verification infrastructure using Verilator and cocotb for functional validation",
+        "Created automated test frameworks with file-driven inputs and cycle-accurate performance metrics",
+        "Implemented FPGA demo systems with UART streaming and Python-based visualization tools"
+      ]
+    },
+    {
       "company": "Neucom ApS",
-      "position": "FPGA Design Engineer",
+      "position": "Research Engineer Intern (FPGA & Embedded Systems)",
       "url": "https://neucom.ai/",
       "start_date": "2025",
       "end_date": "2026",
@@ -183,18 +196,6 @@
       ]
     },
     {
-      "title": "FPGA-Accelerated Market Microstructure Classifier",
-      "summary": "Quantized LSTM model for real-time limit order book analysis deployed on FPGA hardware.",
-      "url": "https://github.com/XhovaniM8/fpga-orderbook-analysis",
-      "duration": "2024",
-      "highlights": [
-        "Implemented 8-bit quantized LSTM architecture achieving sub-3µs inference latency",
-        "Developed C++ market data simulator for generating labeled training datasets",
-        "Deployed neural network to FPGA using hardware compilation toolchain",
-        "Created hardware acceleration pipeline for real-time financial data processing"
-      ]
-    },
-    {
       "title": "HPCC++ Congestion Control Parameter Tuning",
       "summary": "Systematic evaluation of datacenter congestion control protocols for AI workloads.",
       "url": "https://github.com/XhovaniM8/hpcc-tuning",
@@ -203,29 +204,6 @@
         "Extended congestion control implementation to expose tunable parameters",
         "Built Python experiment framework for systematic parameter evaluation",
         "Analyzed flow completion time, retransmissions, and stability metrics for 100–800 Gbps links targeting AI datacenter fabric workloads"
-      ]
-    },
-    {
-      "title": "DVS Event Camera Denoising Pipeline",
-      "summary": "Spatio-temporal denoising for event-based cameras using spiking neural networks.",
-      "duration": "2025",
-      "highlights": [
-        "Implemented SNN-based denoiser with 819K spiking neurons",
-        "Achieved 92% noise reduction on event streams",
-        "Optimized Python implementation achieving 100× speedup",
-        "Processed 1.8M+ event datasets in real-time"
-      ]
-    },
-    {
-      "title": "Digital Signal Processing Filter for Time-Series Forecasting",
-      "summary": "Autoregressive forecasting system using Linear Predictive Coding on financial data.",
-      "url": "https://github.com/XhovaniM8/Real-Time-Stock-Prediction-Filter",
-      "duration": "2024",
-      "highlights": [
-        "Implemented LPC algorithms with Burg's method for time-series prediction",
-        "Developed DSP filters for financial data preprocessing and feature extraction",
-        "Created Python framework for backtesting and performance evaluation",
-        "Optimized filter parameters for stability and prediction accuracy"
       ]
     },
     {
@@ -238,30 +216,6 @@
         "Implemented per-axis Pearson correlation matching with configurable threshold for gesture verification",
         "Wrote custom drivers and integrated HAL for ILI9341 LCD and STMPE811 touchscreen peripherals",
         "Built on Mbed OS targeting ARM Cortex-M4 at 180 MHz"
-      ]
-    },
-    {
-      "title": "Hamster Time Tracker — macOS Port",
-      "summary": "Cross-platform port of GNOME time tracking application to macOS.",
-      "url": "https://github.com/XhovaniM8/hamster-time-tracker",
-      "duration": "2025 – Present",
-      "highlights": [
-        "Ported Linux application by removing platform-specific dependencies",
-        "Refactored backend components for cross-platform execution",
-        "Adapted build system and configuration workflows for macOS",
-        "Preserved existing data models and functionality across platforms"
-      ]
-    },
-    {
-      "title": "jrnl — Cross-Platform Journaling Application",
-      "summary": "Local-first desktop journaling application with modular C++ core and Qt-based UI.",
-      "url": "https://github.com/XhovaniM8/jrnl",
-      "duration": "2025 – Present",
-      "highlights": [
-        "Developing modular C++ core with SQLite-backed storage",
-        "Building Qt6-based user interface for cross-platform deployment",
-        "Prototyping Python-based analytics for text analysis and insights",
-        "Focusing on data integrity and responsive user experience"
       ]
     },
     {
