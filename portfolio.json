@@ -68,17 +68,15 @@
   "work_experience": [
     {
       "company": "Jasper Tech",
-      "position": "Embedded Software Engineer",
+      "position": "Embedded Software Engineer (Contract)",
       "url": "https://jasper.tech/",
       "start_date": "2026",
       "end_date": "2026",
-      "location": "Remote, US",
-      "summary": "Designing and verifying Home Assistant and Music Assistant service pipeline on Raspberry-Pi",
+      "location": "Brooklyn, NY",
       "highlights": [
-        "Developed SystemVerilog RTL modules for event-based vision processing with spatio-temporal filtering",
-        "Built comprehensive verification infrastructure using Verilator and cocotb for functional validation",
-        "Created automated test frameworks with file-driven inputs and cycle-accurate performance metrics",
-        "Implemented FPGA demo systems with UART streaming and Python-based visualization tools"
+        "Built a multi-stage audio pipeline on a Raspberry Pi 5, from stream ingestion to 8-channel DSP and amp output.",
+        "Built a FastAPI bridge integrating Home Assistant, Claude, and Piper for real-time voice response on embedded Linux.",
+        "Ran 4 Docker containers and the systemd audio services with enforced boot ordering and auto-restart for continuous uptime."
       ]
     },
     {
